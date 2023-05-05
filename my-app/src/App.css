@@ -1,0 +1,51 @@
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+ margin: 10px;
+}
+
+.service {
+  width: 200px;
+}
+
+.price {
+  width: 20px;
+}
+
+.svgButton {
+  position: relative;
+  border: none;
+  background-color: transparent;
+  padding: 0px;
+  height: 25px;
+  width: 25px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 7px;
+  margin-left: 50px;
+}
+
+.svgButton:disabled {
+  opacity: 0.7;
+  cursor: default;
+}
+
+.svgButton:hover:not([disabled]) {
+  background-color: transparent;
+}
+
+.svgButton:focus {
+  background-color: transparent;
+}
+
+.svgButton:active {
+  background-color: transparent;
+}
